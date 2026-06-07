@@ -30,7 +30,6 @@ public class MyHashMap<K, V> {
 
         while (head != null) {
             if ((key == null && head.key == null) || (key != null && key.equals(head.key))) {
-                // Обновление значения
                 head.value = value;
                 return;
             }
